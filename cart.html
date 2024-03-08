@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sneakerShop</title>
+    <link rel="stylesheet" href="./fontawesome-free-6.5.1/css/all.min.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <img height="74px" width="200px" src="./image/logo-shop-giay-9.png" />
+      </div>
+      <div class="menu">
+        <li>
+          <a href="">ナイキ</a>
+          <ul class="sub-menu">
+            <li><a href="category.html">nike off-white</a></li>
+            <li><a href="category.html">nike aj4</a></li>
+            <li><a href="category.html">nike air max</a></li>
+            <li><a href="category.html">nike dunk</a></li>
+          </ul>
+        </li>
+        <li><a href="category.html">レディース</a></li>
+        <li><a href="category.html">新着中古</a></li>
+        <li><a href="category.html">人気スニーカ</a></li>
+        <li><a href="category.html">アディダス</a></li>
+      </div>
+      <div class="other">
+        <li>
+          <input type="text" placeholder="検索" />
+          <a class="fa-solid fa-magnifying-glass" href=""></a>
+        </li>
+        <li><a class="fa-solid fa-user" href=""></a></li>
+        <li><a class="fa-solid fa-cart-shopping" href=""></a></li>
+      </div>
+    </header>
+    <section class="cart">
+      <div class="container">
+        <div class="cart-top-wrap">
+          <div class="cart-top">
+            <div class="cart-top-cart cart-top-item">
+              <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+            </div>
+            <div class="cart-top-address cart-top-item">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div class="cart-top-payment cart-top-item">
+              <i class="fa-solid fa-money-bill"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="cart-content row">
+          <div class="cart-content-left">
+            <table>
+              <tr>
+                <th>製品</th>
+                <th>製品名</th>
+                <th>色</th>
+                <th>サイズ</th>
+                <th>数</th>
+                <th>合計</th>
+                <th>キャンセル</th>
+              </tr>
+              <tr>
+                <td>
+                  <img
+                    src="image/22f0781673af5407816d769a7d13948b.jpg"
+                    alt=""
+                  />
+                </td>
+                <td>
+                  <p>NIKE SPORT MSP:72362363e> 19000¥</p>
+                </td>
+                <td>
+                  <img src="image/hinh-nen-mau-tim_6.jpg" alt="" />
+                </td>
+                <td>
+                  <p>L</p>
+                </td>
+                <td>
+                  <input type="number" value="1" min="1" />
+                </td>
+                <td>
+                  <p>19000¥</p>
+                </td>
+                <td>
+                  <span>X</span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img
+                    src="image/be85812c1de36fed7dd1891775a96a4d.jpeg"
+                    alt=""
+                  />
+                </td>
+                <td>
+                  <p>NIKE SPORT MSP:72362363e> 19000¥</p>
+                </td>
+                <td>
+                  <img src="image/hinh-nen-mau-tim_6.jpg" alt="" />
+                </td>
+                <td>
+                  <p>L</p>
+                </td>
+                <td>
+                  <input type="number" value="1" min="1" />
+                </td>
+                <td>
+                  <p>19000¥</p>
+                </td>
+                <td>
+                  <span>X</span>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="cart-content-right">
+            <table>
+              <tr>
+                <th colspan="2">合計</th>
+              </tr>
+              <tr>
+                <td>総製品</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>合計</td>
+                <td>19000¥</td>
+              </tr>
+              <tr>
+                <td>投入金</td>
+                <td><p style="color: red; font-weight: bold">19000¥</p></td>
+              </tr>
+            </table>
+            <div class="cart-content-right-text">
+              <p>20000¥以上購入配送料:無料</p>
+              <p style="color: red; font-weight: bold">
+                千円の商品追加したら配送料：<span style="font-size: 25px"
+                  >無料</span
+                >
+              </p>
+            </div>
+            <div class="cart-content-right-button">
+              <button>カートに追加</button>
+              <button>削除</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="app-container">
+      <p>ダウンロードアプリ</p>
+      <div class="app-download">
+        <img src="./image/Download_on_the_App_Store_Badge.svg.png" />
+        <img src="./image/google-play-download-android-app.png" />
+      </div>
+    </section>
+    <script src="./dolong.js"></script>
+  </body>
+</html>

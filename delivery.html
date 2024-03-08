@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sneakerShop</title>
+    <link rel="stylesheet" href="./fontawesome-free-6.5.1/css/all.min.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <img height="74px" width="200px" src="./image/logo-shop-giay-9.png" />
+      </div>
+      <div class="menu">
+        <li>
+          <a href="">ナイキ</a>
+          <ul class="sub-menu">
+            <li><a href="category.html">nike off-white</a></li>
+            <li><a href="category.html">nike aj4</a></li>
+            <li><a href="category.html">nike air max</a></li>
+            <li><a href="category.html">nike dunk</a></li>
+          </ul>
+        </li>
+        <li><a href="category.html">レディース</a></li>
+        <li><a href="category.html">新着中古</a></li>
+        <li><a href="category.html">人気スニーカ</a></li>
+        <li><a href="category.html">アディダス</a></li>
+      </div>
+      <div class="other">
+        <li>
+          <input type="text" placeholder="検索" />
+          <a class="fa-solid fa-magnifying-glass" href=""></a>
+        </li>
+        <li><a class="fa-solid fa-user" href=""></a></li>
+        <li><a class="fa-solid fa-cart-shopping" href=""></a></li>
+      </div>
+    </header>
+    <section class="delivery">
+      <div class="container">
+        <div class="delivery-top-wrap">
+          <div class="delivery-top">
+            <div class="delivery-top-delivery delivery-top-item">
+              <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+            </div>
+            <div class="delivery-top-address delivery-top-item">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div class="delivery-top-payment delivery-top-item">
+              <i class="fa-solid fa-money-bill"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="delivery-content row">
+          <div class="delivery-content-left">
+            <p>お届け先を教えてください</p>
+            <div class="delivery-content-left-signin row">
+              <p>ユーザ登録</p>
+            </div>
+            <div class="delivery-content-left-guest row">
+              <input checked name="選択" type="radio" />
+              <p><span style="font-weight: bold">ゲスト</span>として登録</p>
+            </div>
+            <div class="delivery-content-left-signup row">
+              <input name="選択" type="radio" />
+              <p>
+                <span style="font-weight: bold">ユーザ登録</span
+                >以下の欄記入して下さい
+              </p>
+            </div>
+            <div class="delivery-content-left-input-top row">
+              <div class="delivery-content-left-input-top-item">
+                <label for="">名前</label>
+                <input type="text" />
+              </div>
+              <div class="delivery-content-left-input-top-item">
+                <label for="">電話番号</label>
+                <input type="text" />
+              </div>
+              <div class="delivery-content-left-input-top-item">
+                <label for="">市</label>
+                <input type="text" />
+              </div>
+              <div class="delivery-content-left-input-top-item">
+                <label for="">区</label>
+                <input type="text" />
+              </div>
+              <div class="delivery-content-left-input-bottom">
+                <label for="">住所 </label>
+                <input type="text" />
+              </div>
+              <div class="delivery-content-left-button row">
+                <a href=""
+                  ><p><span>&#10232;</span>カートに戻る</p></a
+                >
+                <button><p style="font-weight: bold">レジに進む</p></button>
+              </div>
+            </div>
+          </div>
+          <div class="delivery-content-right">
+            <table>
+              <tr>
+                <th>製品名</th>
+                <th>割引</th>
+                <th>数</th>
+                <th>合計</th>
+              </tr>
+              <tr>
+                <td>NIKE SPORT MSP:62363e</td>
+                <td>10%</td>
+                <td>1</td>
+                <td><p>13300¥</p></td>
+              </tr>
+              <tr>
+                <td>NIKE SPORT MSP:62363e</td>
+                <td>10%</td>
+                <td>1</td>
+                <td><p>13300¥</p></td>
+              </tr>
+              <tr>
+                <td style="font-weight: bold" colspan="3">合計</td>
+                <td style="font-weight: bold">13300¥</td>
+              </tr>
+              <tr>
+                <td style="font-weight: bold" colspan="3">税金</td>
+                <td style="font-weight: bold">10%</td>
+              </tr>
+              <tr>
+                <td style="font-weight: bold" colspan="3">合計</td>
+                <td style="font-weight: bold">14630¥</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="app-container">
+      <p>ダウンロードアプリ</p>
+      <div class="app-download">
+        <img src="./image/Download_on_the_App_Store_Badge.svg.png" />
+        <img src="./image/google-play-download-android-app.png" />
+      </div>
+    </section>
+    <script src="./dolong.js"></script>
+  </body>
+</html>
